@@ -1,0 +1,205 @@
+body{
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
+    background-color: #5988D2;
+}
+
+.container{
+    margin: 20px;
+    border-radius: 30px;
+    background-color: #F4F4F6;
+    padding: 0 7px;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 30px 30px 0 0;
+    border-bottom: 3px solid lightgray;
+    padding: 0 5px;
+    padding-top: 10px;
+    max-height: 50px;
+}
+
+.right{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.flex{
+    display: flex;
+}
+.d1{
+    list-style: none;
+}
+li{
+    padding: 5px;
+}
+a{
+    text-decoration: none;
+    color:#7FA6E3;
+    transition: all 0.5s;
+}
+a:hover{
+    color: #3A6EC0;
+}
+
+/*Header*/
+
+.header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 50px;
+}
+
+.profile{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    border: 2px solid lightgray;
+    padding: 3px;
+    transition: all 0.6s;
+}
+
+.profile:hover{
+    border: 2px solid #3A6EC0;
+    padding: 5px;
+    background-position-x: 2px;
+}
+
+.campus{
+    color: #5988D2;
+}
+
+.jur{
+    font-weight: bold;
+}
+
+.bio{
+    max-width: 500px;
+}
+
+p{
+    font-size: 10px;
+}
+
+.zone{
+    padding: 0;
+    margin: 0;
+}
+
+/*Job*/
+
+.job{
+    margin: 50px 70px;
+}
+
+.job h3{
+    margin-bottom: 10px;
+}
+
+.job h5{
+    margin: 0;
+}
+
+.list-job{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr)); 
+    gap: 20px;
+}
+
+.zone-job{
+    border-left: 3px solid #5988D2;
+    padding-left: 8px;
+    transition: all 0.6s;
+    cursor: pointer;
+}
+
+.zone-job:hover{
+    scale: 1.03;
+    background-color: #F4F4F6;
+    border-radius: 5px;
+}
+
+.job-title{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.symbol{
+    width: 50px;
+    height: 50px;
+    border-radius: 10%;
+    background-position: center;
+    background-size: cover;
+}
+
+.s1{
+    background-image: url(console.png);
+}
+
+.s2{
+    background-image: url(web-design.png);
+}
+
+.s3{
+    background-image: url(web-coding.png);
+}
+
+.s4{
+    background-image: url(database.png);
+}
+
+/*Education*/
+.Education{
+    padding: 0 70px;
+    margin-top: 50px;
+}
+
+.Education h3{
+    margin: 5px 0;
+}
+
+.Edu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+p{
+    font-size: 12px;
+    margin: 5px 0;
+}
+.date{
+    font-size: 15px;
+}
+
+/*Portofolio*/
+.portofolio{
+    margin: 0 70px;
+}
+
+.porto-content{
+    padding-left: 10px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr)); 
+}
+
+
+/*footer*/
+.footer{
+    text-align: center;
+    border-top: 2px solid lightgray;
+    margin: 50px 10px;
+    margin-bottom: 0;
+    padding: 8px;
+    font-size: 10px;
+}
+
+
